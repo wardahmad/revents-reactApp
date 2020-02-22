@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Button, Form, Segment } from "semantic-ui-react";
 
-export default class EventForm extends Component {
+class EventForm extends Component {
   state = {
     title: "",
     date: "",
@@ -96,3 +96,5 @@ export default class EventForm extends Component {
     );
   }
 }
+
+export default EventForm;

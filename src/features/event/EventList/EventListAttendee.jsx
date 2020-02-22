@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { List, Image } from 'semantic-ui-react'
 
-export default class EventListAttendee extends Component {
+class EventListAttendee extends Component {
     render() {
         const {attendee} = this.props;
         return (
@@ -11,3 +11,5 @@ export default class EventListAttendee extends Component {
         )
     }
 }
+
+export default EventListAttendee;

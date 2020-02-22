@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Segment, Item, Icon, List, Button } from "semantic-ui-react";
 import EventListAttendee from "./EventListAttendee";
 
-export default class EventListItem extends Component {
+class EventListItem extends Component {
   render() {
     const { event, selectEvent, deleteEvent } = this.props;
     return (
@@ -57,3 +57,5 @@ export default class EventListItem extends Component {
     );
   }
 }
+
+export default EventListItem;
