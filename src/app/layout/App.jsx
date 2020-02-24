@@ -2,6 +2,8 @@ import React, { Component, Fragment } from "react";
 import NavBar from "../../features/nav/NavBar/NavBar";
 import { Container } from "semantic-ui-react";
 import EventDashboard from "../../features/event/EventDashboard/EventDashboard";
+import { Route } from "react-router-dom";
+
 
 class App extends Component {
   render() {
@@ -10,7 +12,9 @@ class App extends Component {
         <NavBar />
         <Container className='main'>
           
-          <EventDashboard />
+          {/* <EventDashboard /> */}
+          {/* <Route path='/events' Component={EventDashboard} /> */}
+          <Route path='/events' Component={EventDashboard} />
 
           {/* <Route exact path='/' Component={HomePage} />
           <Route path='/events' Component={EventDashboard} />
