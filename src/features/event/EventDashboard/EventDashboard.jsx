@@ -62,12 +62,6 @@ class EventDashboard extends Component {
     selectedEvent: null
   };
 
-  // handleIsOpenToggle = () => {
-  //   this.setState(({ isOpen }) => ({
-  //     isOpen: !isOpen
-  //   }));
-  // };
-
   handleCreateFormOpen = () => {
     this.setState({
       isOpen: true,
