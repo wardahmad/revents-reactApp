@@ -1,5 +1,5 @@
 import { createReducer } from "../../app/common/util/reducerUtils";
-import { UPDATE_EVENT, DELETE_EVENT, CREATE_EVENT } from "./eventConstants";
+import { UPDATE_EVENT, DELETE_EVENT, CREATE_EVENT } from "./ventConstants";
 
 const initialState = [
     {
